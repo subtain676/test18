@@ -1,0 +1,37 @@
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1733503747506-773e56e4078f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Services */
+.service-box {
+    background: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.service-box:hover {
+    background: #f8f9fa;
+    transform: scale(1.05);
+}
+
+/* Portfolio Hover Effect */
+.hover-effect {
+    transition: transform 0.3s ease-in-out;
+}
+.hover-effect:hover {
+    transform: scale(1.1);
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+}
+/* img{
+    height: 400px;
+    width: 400px;
+} */
